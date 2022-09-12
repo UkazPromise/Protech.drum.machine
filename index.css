@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aquamarine;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.container{
+    height: 100vh;
+}
+.card{
+    width: 360px;
+}
+#display{
+    background-color: #fff;
+}
+#button {
+    background-color: #fff;
+    border-radius: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 360px;
+}
+.drum-pad {
+    border: 2px solid #333;
+    border-radius: 4px;
+    font-size: 68px;
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+}
+
+  /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+        width: 100%
+      }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    body {
+        background-color: orchid;
+        width: 100%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    body {
+        background-color: olivedrab;
+        width: 100%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    body {
+        background-color: aquamarine;
+        width: 100%;
+    }
+}
